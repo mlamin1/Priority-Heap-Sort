@@ -1,0 +1,34 @@
+Muniru Lamin
+COSC 320 Lab-5
+03/13/19
+
+
+Readme:
+This program is made to test out priority queues using heap sort function. In This program I have 2 files: my main.cpp and my heap.h. in my main.cpp file this is where all the user interface materials are implemented. I create an object heap so that my main have access to the methods of my heap.h files. I give user a menu option which goes through giving the user different options of what they could do. which includes inserting, deleting, displaying top priority, and displaying the entire array in a tree form where the highest is at the top. In my heap.h file, I have a Heapobj struct where i declare the name and priority coming into the tree. I also have a HeapQ class which creates an array of Heapobj to store the name and priority of the person. I also have other function that add, remove display, and return the top person in the array.
+
+
+Questions:
+
+a)
+Once a again I appoach this problem by thoroughly reading and understanding what my proffessor wanted me to do. After reading I started with my main by making my menu options and asking user for the name and priority of the person. Once I impplemented that I worked  of my heap fuctions. I first implemented my insert function and made sure that worked and asked user if they would like to delete, then implemented that function. I use this step of coding just so I dont have errors in different functions at the same time.
+
+
+
+b)
+The theorectical time complexity for my algorithms are similar in most of my functions: for my insert the run time is log(n) only because increaseKey is being called.
+increase key is also log(n), and ExtractMax is log(n) because of maxheapify being called.
+
+
+
+c)
+
+
+
+
+
+d)
+A large application where priority queue will be helpful at the Hospital in an emergency room where the people with the most serverity has first priority.
+
+
+
+e)I can make my program better by adding more validation cases so that the user doesnt input something that will terminate the program. also i can give the user more idea on what my program does so they understand fully. There is probably another way I could give user option in lesser lines of codes so everything isn't in the main, That will also be a good clean up. I can also comment more in my code so that if read by someone else they can understand what is happening 
